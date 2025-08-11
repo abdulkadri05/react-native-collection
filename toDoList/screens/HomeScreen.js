@@ -5,7 +5,7 @@ import { StatusBar } from 'expo-status-bar';
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Welcome to my To-Do List App.</Text>
+      <Text style={styles.text}>Welcome to my To-Do List App</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -16,10 +16,11 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#0d2350',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'top',
+    paddingTop: 80,
   },
   text: {
-    fontSize: 20,
+    fontSize: 30,
     color: 'white',
     fontWeight: 'bold',
   },
